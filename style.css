@@ -30,7 +30,6 @@ ul.topnav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .topnav a:hover {
@@ -163,13 +162,13 @@ section {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .second-anchor {
     text-decoration: none;
     color: rgb(255, 71, 132);
     border-radius: 30px;
-    display: flex;
+    text-align: right;
 }
-
 
 
 
