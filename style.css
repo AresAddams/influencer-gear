@@ -50,12 +50,14 @@ ul.topnav li a {
 .section-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
     align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .half-width-para {
-    padding-left: 10%;
+    padding-left: 40%;
 
 }
 
@@ -75,8 +77,8 @@ ul.topnav li a {
     transition: transform 2s ease-in-out;
 }
 
-.half-width h1 {
-    font-size: 52px;
+.half-width-para h1 {
+    font-size: 45px;
     color: #3A3A3A;
 }
 
@@ -163,6 +165,16 @@ section {
         width: 100%;
     }
 
+    .half-width {
+        flex-direction: column;
+
+    }
+
+    .half-width-para {
+        flex-direction: column;
+    }
+
+
     .container-2 {
         width: 100%;
     }
@@ -171,10 +183,6 @@ section {
     .products {
         grid-template-columns: repeat(1, 1fr);
 
-    }
-
-    .half-width {
-        flex-direction: column;
     }
 
 
@@ -194,7 +202,7 @@ section {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .blogs {
+    .product {
         grid-template-columns: repeat(1, 1fr);
     }
 }
