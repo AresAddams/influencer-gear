@@ -163,6 +163,13 @@ section {
     padding-right: 15px;
 }
 
+.anchor {
+    text-decoration: none;
+    color: rgb(255, 71, 132);
+    border-radius: 30px;
+
+}
+
 
 /* last-part */
 .container-3 {
@@ -242,7 +249,7 @@ footer {
 
     .products {
         grid-template-columns: repeat(1, 1fr);
-
+        display: block;
     }
 
     .final {
@@ -268,7 +275,7 @@ footer {
 
 
     .products {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
 
     }
 
